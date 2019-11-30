@@ -1,0 +1,26 @@
+.seek{
+    text-align: center;
+}
+
+.seek-content img{
+    float: left;
+}
+
+.seek-content a{
+    display: block;
+    float: left;
+    width: 94px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 17px;
+    color: #000000;
+}
+
+.seek-content .one{
+    color: #ffffff;
+    background-color: #31c27c;
+}
+
+.seek-content-input{
+    float: left;
+}
