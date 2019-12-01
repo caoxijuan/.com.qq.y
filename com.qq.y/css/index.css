@@ -4,6 +4,9 @@
 
 .seek-content img{
     float: left;
+    margin-top: 22px;
+    margin-bottom: 23px;
+    margin-right: 32px;
 }
 
 .seek-content a{
@@ -16,11 +19,43 @@
     color: #000000;
 }
 
-.seek-content .one{
+.seek-content a:hover{
+    color: #31c27c;
+}
+
+.seek .seek-content .one{
     color: #ffffff;
     background-color: #31c27c;
 }
 
+.seek-content .last{
+    margin-right: 26px;
+}
+
 .seek-content-input{
     float: left;
+    width: 220px;
+    height: 38px;
+    border: 1px solid #c9c9c9;
+    box-sizing: border-box;
+    margin: 26px 0;
+    line-height: 38px;
+}
+
+.seek-content-input input{
+    float: left;
+    width: 183px;
+    height: 36px;
+    border: none;
+}
+
+.seek-content .seek-content-input a{
+    float: right;
+    width: 35px;
+    height: 38px;
+    background-color: aqua;
+}
+
+.seek-content-input a button{
+    float: right;
 }
