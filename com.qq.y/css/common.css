@@ -19,3 +19,9 @@
     margin: 0 auto;
     position: relative;
 }
+
+/* 背景 */
+.back{
+    background-image: url(../img/beijing.jpg);
+    background-repeat: repeat-x;
+}
