@@ -24,4 +24,5 @@
 .back{
     background-image: url(../img/beijing.jpg);
     background-repeat: repeat-x;
+    background-size: cover;
 }
