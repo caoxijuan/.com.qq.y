@@ -272,7 +272,12 @@
 }
 
 .songlist-carousel-ph a::after{
+    display: none;
+}
+
+.songlist-carousel-ph a:hover::after{
     content: "";
+    display: block;
     background-image: url(../img/cover_play@2x.png);
     background-size: 70px;
     position: absolute;
@@ -519,15 +524,43 @@
 
 .newsong-content-all>a{
     display: block;
+    position: relative;
     float: left;
     width: 86px;
     height: 86px;
     margin-right: 14px;
+    overflow: hidden;
+}
+
+.newsong-content-all>a::after{
+    display: none;
+}
+
+.newsong-content-all>a:hover::after{
+    content: "";
+    display: block;
+    background-image: url(../img/cover_play@2x.png);
+    background-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px;
+    width: 70px;
+    height: 70px;
+    transform: scale(.7) translateZ(0);
+    transition-property: opacity,transform;
+    transition-duration: .5s;
+    zoom: 1;
 }
 
 .newsong-content-all img{
     width: 86px;
     height: 86px;
+    transition: all 0.6s;
+}
+
+.newsong-content-all img:hover{
+    transform: scale(1.1);
 }
 
 .newsong-content-one{
@@ -870,13 +903,38 @@
 }
 
 .dvd-content-show>a{
+    position: relative;
     display: block;
+    overflow: hidden;
 }
+
+.dvd-content-show>a::after{
+    display: none;
+}
+
+.dvd-content-show>a:hover::after{
+    content: "";
+    display: block;
+    background-image: url(../img/cover_play@2x.png);
+    background-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px;
+    width: 70px;
+    height: 70px;
+}
+
 
 .dvd-content-show a img{
     width: 224px;
     height: 224px;
     margin-bottom: 15px;
+    transition: all 0.6s;
+}
+
+.dvd-content-show a img:hover{
+    transform: scale(1.1);
 }
 
 .dvd-content-show h3 {
@@ -1105,14 +1163,38 @@
 
 .mv-content>div>a{
     display: block;
+    position: relative;
     width: 224px;
     height: 126.66px;
     padding-bottom: 19px;
+    overflow: hidden;
+}
+
+.mv-content>div>a::after{
+    display: none;
+}
+
+.mv-content>div>a:hover::after{
+    content: "";
+    display: block;
+    background-image: url(../img/cover_play@2x.png);
+    background-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px;
+    width: 70px;
+    height: 70px;
 }
 
 .mv-content>div a img{
     width: 224px;
     height: 126.66px;
+    transition: all 0.6s;
+}
+
+.mv-content>div a img:hover{
+    transform: scale(1.1);
 }
 
 .mv-content>div h3{
