@@ -425,15 +425,47 @@
     color: #31c27c;
 }
 
+/* 底部导航 */
+
+.bt-nav{
+    padding-bottom: 60px;
+    background-color: #fafafa;
+}
+
+.bt-nav-show{
+    text-align: center;
+}
+
 .bt-nav-show span{
-    display: block;
-    width: 47px;
-    height: 50px;
+    display: inline-block;
+    padding: 0 21px;
+    box-sizing: border-box;
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
     line-height: 50px;
+    background-color: #31c27c;
+    margin: 0 5px;
+}
+
+.bt-nav-show .span{
+    color: #a2a2a2;
+    background-color: #fafafa;
+}
+
+.bt-nav-show a{
+    display: inline-block;
+    padding: 0 21px;
+    box-sizing: border-box;
+    color: #a2a2a2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.bt-nav-show a:hover{
+    color: #fff;
     background-color: #31c27c;
 }
 
