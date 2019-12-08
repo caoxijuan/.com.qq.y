@@ -1,0 +1,255 @@
+/* 搜索 */
+.seek{
+    text-align: center;
+}
+
+.seek-content{
+    position: relative;
+    border-bottom: 1px solid #f2f2f2;
+    margin: 0 auto;
+    width: 1250px;
+}
+
+.seek-content img{
+    float: left;
+    margin-top: 22px;
+    margin-bottom: 23px;
+    margin-right: 32px;
+}
+
+.seek-content a{
+    display: block;
+    float: left;
+    width: 94px;
+    height: 91px;
+    line-height: 90px;
+    font-size: 17px;
+    color: #000000;
+}
+
+.seek-content a:hover{
+    color: #31c27c;
+}
+
+.seek .seek-content .one{
+    color: #ffffff;
+    background-color: #31c27c;
+}
+
+.seek-content .last{
+    margin-right: 24px;
+}
+
+.seek-content-input{
+    float: left;
+    width: 220px;
+    height: 38px;
+    border: 1px solid #c9c9c9;
+    box-sizing: border-box;
+    margin: 26px 0;
+    line-height: 38px;
+}
+
+.seek-content-input input{
+    float: left;
+    width: 174px;
+    height: 36px;
+    border: none;
+    font-size: 14px;
+    margin-left: 9px;
+}
+
+.seek-content .seek-content-input a{
+    float: right;
+    width: 35px;
+    height: 36px;
+}
+
+.seek-content-input a button{
+    float: right;
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-image: url(../img/icon_sprite.png);
+    background-repeat: no-repeat;
+    background-position:0px -40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.seek .seek-content .up{
+    width: 78px;
+}
+
+.seek-content .dredge{
+    width: 111px;
+    height: 38px;
+    font-size: 12px;
+    background-color: #31c27c;
+    color: #ffffff;
+    line-height: 38px;
+    margin-top: 24px;
+    margin-bottom: 28px;
+    margin-right: 10px;
+}
+
+.seek-content .dredge:hover{
+    background-color: #2caf6f;
+    color: #ffffff;
+}
+
+.seek-content .bag{
+    width: 85px;
+    height: 38px;
+    font-size: 12px;
+    line-height: 38px;
+    border: 1px solid #c9c9c9;
+    box-sizing: border-box;
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+
+.seek-content .bag:hover{
+    background-color: #ededed;
+    color: #000000;
+}
+
+.seek-content .sp{
+    position: absolute;
+    display: block;
+    top: -3px;
+    left: 446px;
+}
+
+.seek-content .sp img{
+    width: 37.13px;
+    height: 14px;
+}
+
+.seek-content .three{
+    position: relative;
+}
+
+.seek-content .three:hover + .client,
+.client:hover { 
+    display: block;
+}
+
+.client{
+    display: none;
+    position: absolute;
+    top: 68px;
+    right: 678px;
+    box-shadow: 0 0 4px rgba(0,0,0,.35);
+    border-radius: 4px;
+    z-index: 2;
+    background-color: #ffffff;
+    display: none;
+}
+
+.client-top p{
+    margin-bottom: 19px;
+    margin-right: 16px;
+}
+
+.client-top p i{
+    display: inline-block;
+    vertical-align: -3px;
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+    margin-left: 16px;
+    margin-right: 9px;
+}
+
+.client-top p:first-child{
+    margin-top: 15px;
+}
+
+.client-top p:first-child i{
+    background-image: url(../img/kehuduan.png);
+    background-position: 0 0;
+}
+
+.client-top p:nth-child(2) i{
+    background-image: url(../img/kehuduan.png);
+    background-position: 0 -30px;
+}
+
+.client-top p:last-child i{
+    background-image: url(../img/kehuduan.png);
+    background-position: 0 -61px;
+}
+
+.seek-content .client>a{
+    display: block;
+    width: 135px;
+    height: 25px;
+    color: #ffffff;
+    background-color: #2ac691;
+    margin-bottom: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+.seek-content .client>a:hover{
+    background-color: #31c27c;
+}
+
+/* 导航 */
+
+.twonav-content{
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 20px;
+}
+
+.twonav-content a{
+    font-size: 15px;
+    margin-right: 47px;
+}
+
+.twonav .twonav-content a:nth-child(3){
+    color: #31c27c;
+}
+
+.twonav-content a:hover{
+    color: #31c27c;
+}
+
+/* 新碟 */
+
+
+.newdvd{
+    background-image: url(../img/beijing.jpg);
+    background-repeat: no-repeat;
+}
+
+.newdvd-nav{
+    padding-left: 65px;
+    line-height: 26px;
+    padding-top: 52px;
+}
+
+.newdvd-nav a{
+    float: left;
+    padding: 0 8px;
+    margin: 0 24px 15px 0;
+    color: #000000;
+    font-size: 14px;
+}
+
+.newdvd-nav a:hover{
+    color: #31c27c;
+}
+
+
+.newdvd-nav a:first-child{
+    background-color: #31c27c;
+    color: #ffffff;
+}
