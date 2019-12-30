@@ -1,4 +1,5 @@
 /* 清除浮动 */
+
 .clearfix::before,
 .clearfix::after {
     content: "";
@@ -13,16 +14,20 @@
     *zoom: 1;
 }
 
+
 /* 版心 */
-.container{
+
+.container {
     width: 1200px;
     margin: 0 auto;
     position: relative;
 }
 
+
 /* 背景 */
-.back{
-    background-image: url(../img/beijing.jpg);
+
+.back {
+    background-image: url(../images/beijing.jpg);
     background-repeat: repeat-x;
     background-size: cover;
 }

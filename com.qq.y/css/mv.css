@@ -218,9 +218,6 @@
 
 .twonav .twonav-content a:first-child {
     margin-left: 35px;
-}
-
-.twonav .twonav-content a:nth-child(2) {
     color: #31c27c;
 }
 
@@ -229,206 +226,174 @@
 }
 
 
-/* 歌手 */
-
-.singer {
-    background-image: url(../images/bg_singer.jpg);
-}
-
-.singer-show {
-    padding-top: 103px;
-    padding-bottom: 99px;
-}
-
-.singer-show h2 {
-    display: block;
-    width: 494px;
-    height: 60px;
-    background-image: url(../images/singer_tit.png);
-    background-position: 0 0;
-    margin: 0 auto;
-}
-
-.singer-show p {
-    display: block;
-    width: 260px;
-    height: 26px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(../images/singer_tit.png);
-    background-position: 0 -70px;
-}
-
-.singer-show a {
-    display: block;
-    width: 174px;
-    height: 48px;
-    line-height: 48px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 22px;
-    border: 1px solid #595959;
-    border-radius: 2px;
-}
-
-.singer-show a:hover {
-    border: 1px solid #fff;
-}
-
-
 /* 导航2 */
 
-.nav {
-    background-color: #fafafa;
-}
-
-.nav-show {
-    padding-top: 34px;
-    padding-left: 40px;
-    padding-bottom: 17px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    background-color: #fbfbfd;
-}
-
-.nav-show>div {
-    margin-bottom: 17px;
-}
-
-.hot a {
-    display: block;
-    float: left;
+.newdvd-nav {
     line-height: 26px;
-    margin-right: 29px;
+    padding-top: 52px;
 }
 
-.hot a:hover {
-    color: #58c588;
+.mv-nav {
+    padding-top: 0;
 }
 
-.nav-show .hot a:first-child {
-    width: 44px;
-    height: 26px;
-    background-color: #31c27c;
-    color: #fff;
-    line-height: 26px;
-    text-align: center;
-    margin-right: 36px;
-}
-
-.region a {
-    display: block;
+.newdvd-nav a {
     float: left;
-    line-height: 26px;
-    margin-right: 27px;
-}
-
-.region a:hover {
-    color: #58c588;
-}
-
-.nav-show .region a:first-child {
-    width: 44px;
-    height: 26px;
-    background-color: #31c27c;
-    color: #fff;
-    line-height: 26px;
-    text-align: center;
-    margin-right: 36px;
-}
-
-.style a {
-    display: block;
-    float: left;
-    line-height: 26px;
-    margin-right: 28px;
-}
-
-.style a:hover {
-    color: #58c588;
-}
-
-.nav-show .style a:first-child {
-    width: 44px;
-    height: 26px;
-    background-color: #31c27c;
-    color: #fff;
-    line-height: 26px;
-    text-align: center;
-    margin-right: 36px;
-}
-
-.nav-singer>div {
-    float: left;
-    width: 224px;
-    height: 245px;
-    padding: 25px 0;
-    box-sizing: border-box;
-    background-color: #fbfbfd;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.nav-singer>div:nth-child(5) {
-    margin-right: 0;
-}
-
-.nav-singer>div:nth-child(10) {
-    margin-right: 0;
-}
-
-.nav-singer>div>a {
-    display: block;
-}
-
-.nav-singer>div>a img {
-    display: block;
-    width: 140px;
-    height: 140px;
-    border-radius: 126px;
-    margin: 0 auto;
-}
-
-.nav-singer>div>span {
-    display: block;
-    margin: 20px 30px 4px;
-    font-size: 18px;
-    text-align: center;
-}
-
-.nav-singer>div>span a:hover {
-    color: #31c27c;
-}
-
-
-/* 歌手名单 */
-
-.songerlist {
-    background-color: #fafafa;
-}
-
-.songerlist-show ul {
-    margin-right: -20px;
-    margin-bottom: 60px;
-}
-
-.songerlist-show ul li {
-    float: left;
-    width: 20%;
-}
-
-.songerlist-show ul li a {
-    float: left;
+    padding: 0 8px;
+    margin: 0 24px 15px 0;
+    color: #000000;
     font-size: 14px;
-    line-height: 36px;
 }
 
-.songerlist-show ul li a:hover {
+.newdvd-nav a:hover {
     color: #31c27c;
+}
+
+.newdvd-nav a:nth-child(2) {
+    background-color: #31c27c;
+    color: #ffffff;
+}
+
+.mv {
+    background-image: url(../images/beijing.jpg);
+    background-repeat: no-repeat;
+}
+
+.all-top h3 {
+    float: left;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.all-right {
+    float: right;
+    width: 124px;
+    height: 40px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+
+.all-right a {
+    display: inline-block;
+    width: 48%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.all-right a:first-child {
+    background-color: #31c27c;
+    color: #ffffff;
+}
+
+.mv-content {
+    padding-bottom: 33px;
+}
+
+.mv-content>div {
+    float: left;
+    margin-right: 20px;
+}
+
+.mv-content>div:nth-child(4) {
+    margin-right: 0;
+}
+
+.mv-content>div:nth-child(8) {
+    margin-right: 0;
+}
+
+.mv-content>div:nth-child(12) {
+    margin-right: 0;
+}
+
+.mv-content>div:nth-child(16) {
+    margin-right: 0;
+}
+
+.mv-content>div:nth-child(20) {
+    margin-right: 0;
+}
+
+.mv-content>div>a {
+    display: block;
+    position: relative;
+    width: 285px;
+    height: 161.16px;
+    padding-bottom: 19px;
+    overflow: hidden;
+}
+
+.mv-content>div>a::after {
+    display: none;
+}
+
+.mv-content>div>a:hover::after {
+    content: "";
+    display: block;
+    background-image: url(../images/cover_play@2x.png);
+    background-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px;
+    width: 70px;
+    height: 70px;
+}
+
+.mv-content>div a img {
+    width: 285px;
+    height: 161.16px;
+    transition: all 0.6s;
+}
+
+.mv-content>div a img:hover {
+    transform: scale(1.1);
+}
+
+.mv-content>div h3 {
+    padding-bottom: 9px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mv-content>div h3 a:hover {
+    color: #31c27c;
+}
+
+.mv-content>div p {
+    padding-bottom: 10px;
+}
+
+.mv-content>div p a {
+    font-size: 14px;
+    color: #999999;
+}
+
+.mv-content>div p a:hover {
+    color: #31c27c;
+}
+
+.mv-content>div i {
+    display: block;
+    color: #999999;
+    font-size: 14px;
+    padding-bottom: 31px;
+}
+
+.mv-content>div i button {
+    display: block;
+    float: left;
+    width: 19px;
+    height: 12px;
+    background-image: url(../images/icon_sprite.png);
+    background-position: -180px -20px;
+    border: none;
+    background-color: #fdfdfd;
+    margin-top: 1px;
+    margin-right: 5px;
 }
 
 
@@ -436,7 +401,6 @@
 
 .bt-nav {
     padding-bottom: 60px;
-    background-color: #fafafa;
 }
 
 .bt-nav-show {
@@ -447,17 +411,18 @@
     display: inline-block;
     padding: 0 21px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
     line-height: 50px;
-    background-color: #31c27c;
     margin: 0 5px;
+    background-color: #31c27c;
 }
 
-.bt-nav-show .span {
+.bt-nav .bt-nav-show .span {
     color: #a2a2a2;
-    background-color: #fafafa;
+    font-weight: bolder;
+    background-color: #ffffff;
 }
 
 .bt-nav-show a {
