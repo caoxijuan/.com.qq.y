@@ -216,8 +216,7 @@
     margin-right: 47px;
 }
 
-.twonav .twonav-content a:first-child {
-    margin-left: 35px;
+.twonav .twonav-content a:nth-child(7) {
     color: #31c27c;
 }
 
