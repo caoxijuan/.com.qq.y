@@ -1689,3 +1689,54 @@
 .footer-bottom h3 a:hover {
     color: #31c27c;
 }
+
+.window {
+    position: fixed;
+    top: 164px;
+    right: 40px;
+    z-index: 5;
+    padding: 18px;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .07);
+    background-color: #fff;
+}
+
+.window img {
+    display: block;
+    margin: 0 auto 9px;
+    width: 102px;
+}
+
+.window p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #a6a6a6;
+    text-align: center;
+}
+
+.window a {
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: 26px;
+    border-radius: 26px;
+    line-height: 26px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background-color: #31c27c;
+}
+
+.window a:hover {
+    background-color: #2caf6f;
+}
+
+.window a i {
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: -1px;
+    width: 13px;
+    height: 14px;
+    background-image: url(../images/icon_sprite.png);
+    background-position: -160px -320px;
+}
